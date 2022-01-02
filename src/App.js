@@ -6,7 +6,7 @@ import ImageLinkForm from "./components/imagelink/imagelink";
 import Rank from "./components/Rank/rank";
 import Signin from "./components/signin/signin";
 import Register from "./components/Register/register";
-import Particles from "react-particles-js";
+
 
 import FaceRecognition from "./components/faceRecognition/faceRecognition";
 
@@ -116,11 +116,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Particles
-          className="particles"
-          id="tsparticles"
-          options={particlesOptions}
-        />
+       
         <Navigation
           onRouteChange={this.onRouteChange}
           issignedin={this.state.issignedin}
